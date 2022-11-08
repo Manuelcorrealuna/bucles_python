@@ -22,7 +22,13 @@
 # Cada temperatura ingresada en cada iteración
 # con input deberá almacenarse en la lista
 # temperaturas utilizando append
+temperaturas = []
 
+for temp in range (5):
+    temp = input(("Inserte una temperatura del día: "))
+    temperaturas.append(temp)
+
+print("Las temperaturas ingresadas son: ", temperaturas)
 # TIP
 # Utilice el debugger para ver como avanza
 # el programa paso a paso

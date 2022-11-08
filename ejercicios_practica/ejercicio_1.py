@@ -17,6 +17,7 @@
 # o empezando con una lista vacia y agregar
 # cada valor con append
 
+
 # Alumno:
 # Crear una variable del tipo lista
 # llamada contenidos_curso
@@ -28,6 +29,8 @@
 # condicionales
 # listas
 # bucles
+contenido_curso = ("python", "variables", "condicionales", "listas", "bucles")
 
+print (contenido_curso)
 
 # Imprimir en pantalla la variable contenidos_curso
